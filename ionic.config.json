@@ -1,0 +1,8 @@
+{
+  "name": "Resilire",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "a9281aa1"
+}
