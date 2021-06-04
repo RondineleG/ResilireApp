@@ -1,4 +1,4 @@
-export interface PacienteDTO {
+export interface ConsultaDTO {
     idConsulta:number,
     idPaciente:number,
     idProntuario:number,

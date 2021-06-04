@@ -1,4 +1,4 @@
-export interface PacienteDTO {
+export interface PscicologoDTO {
     idPsicologo:number,
     crp: string,
     email: string,
@@ -7,3 +7,5 @@ export interface PacienteDTO {
     sobrenome: string,
     telefone: string
 }
+
+
