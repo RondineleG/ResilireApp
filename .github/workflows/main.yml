@@ -7,23 +7,6 @@ on:
     branches: [ master ]
 
 jobs:
-  # This will build an IPA & Upload the artifact in iOS.zip
-  build-ios:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Build iOS with Appflow
-        uses: ionic-team/appflow-build@v1
-        with:
-          token: ${{ secrets.APPFLOW_TOKEN }}
-          app-id: ${{ secrets.APPID }} 
-          platform: iOS
-          build-type: ad-hoc
-          environment: MyEnv
-          native-config: MyNativeConfig
-          certificate: MyCertificate
-          build-stack: macOS - 2020.09
-          upload-artifact: iOS
-
   # This will build an APK & Upload the artifact in Android.zip
   build-android:
     runs-on: ubuntu-latest
