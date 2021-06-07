@@ -18,7 +18,6 @@ jobs:
           app-id: ${{ secrets.APPID }} 
           platform: Android
           build-type: debug
-          native-config: MyNativeConfig
           upload-artifact: Android
 
   # This will trigger a live update
